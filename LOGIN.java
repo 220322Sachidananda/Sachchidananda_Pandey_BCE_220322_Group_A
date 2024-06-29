@@ -12,19 +12,19 @@ public class LOGIN
     Frame frame = new Frame("LOGIN PAGE");
 
     Label lbl1 = new Label("Username");
-    setBounds.lbl1(200,200,100,50);
+    lbl1.setBounds(200,200,100,50);
     frame.add(lbl1);
 
     TextField txt1 = new TextField();
-    setBounds.txt1(250,200,300,50);
+    txt1.setBounds(250,200,300,50);
     frame.add(txt1);
 
     Label lbl2 = new Label("password");
-    setBounds.lbl2(200,300,100,50);
+    lbl2.setBounds(200,300,100,50);
     frame.add(lbl2);
 
     TextField txt2 = new TextField;
-    setBounds.txt2(250,300,300,50);
+    txt2.setBounds(250,300,300,50);
     frame.add(txt2);
 
     frame.setSize(400,400);
